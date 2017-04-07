@@ -34,8 +34,8 @@ staticman:
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
-  moderation             : true
-  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  moderation             : false
+  path                   : "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "叶勤勇"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/henry-pang.jpg"
   bio              : #"I am an amazing person."
   location         : "杭州"
   email            : yeqinyong13@163.com
