@@ -19,6 +19,8 @@
 }
 
 .page {
+    font-size: 0.8em;
+
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -51,6 +53,7 @@
 }
 
 .page__content {
+
 
   h2 {
     padding-bottom: 0.5em;
