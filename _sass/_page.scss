@@ -19,7 +19,7 @@
 }
 
 .page {
-    font-size: 0.8em;
+    font-size: 0.85em;
 
   @include breakpoint($large) {
     @include span(10 of 12 last);
