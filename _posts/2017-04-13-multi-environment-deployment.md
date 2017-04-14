@@ -4,7 +4,6 @@ categories: devops
 tags: gitlab CI CD 阿里云 容器服务 docker spring springboot
 ---
 {% include toc title="目录" icon="file-text" %}
-
 在[上篇文章]({{ site.url }}/ci-with-gitlab-and-aliyun-docker)中我们介绍了[使用gitlab和阿里云容器服务进行持续部署]({{ site.url }}/ci-with-gitlab-and-aliyun-docker). 在实际开发中, 我们往往有多种部署环境, 比如本地开发环境, 测试环境, 预发布环境, 生产环境. 本文结合技术讲讲如何使用gitlab和阿里云容器服务进行spring应用多环境持续部署.
 
 ## Spring Configuration
