@@ -1,7 +1,7 @@
 ---
 title:  "使用gitlab和阿里云容器服务进行持续部署(一)"
 categories: devops
-tags: gitlab CD 阿里云 容器服务 docker
+tags: gitlab CI CD 阿里云 容器服务 docker spring springboot
 ---
 {% include toc title="目录" icon="file-text" %}
 ## 动机
@@ -29,7 +29,7 @@ tags: gitlab CD 阿里云 容器服务 docker
   + 运行 docker-compose, 在阿里云容器服务集群上部署服务
 
 ## 示例项目
-本文以一个 hello world的 spring boot 应用为例介绍如何实现上述流水线. 以下为改应用的目录结构.
+本文以一个 hello world的 spring boot 应用为例介绍如何实现上述流水线. 以下为该应用的目录结构.
 ```
 ├── .gitlab-ci.yml            # gitlab 持续集成脚本
 ├── docker
