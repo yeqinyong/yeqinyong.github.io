@@ -2,7 +2,7 @@
 title: 部署在阿里云 SLB 后面的spring 应用如何获得用户真实 IP
 date: '2017-04-26 00:11'
 categories: 开发
-tag: 阿里云 SLB 真实IP RemoteIpFilter Spring
+tags: 阿里云 SLB 真实IP RemoteIpFilter Spring
 ---
 
 如果你的应用是部署在阿里云上面的, 往往在应用的前面会架设一个SLB(负载均衡). 如果 SLB配置成四层转发, 那么你的应用看到的 http 连接的对端地址为真实的用户 IP, `HttpServletRequest.getRemoteAddr()`能返回正确的用户 IP. 但是如果 SLB 配置成`七层转发`, `HttpServletRequest.getRemoteAddr()`返回的是 SLB对内地址, 比如: `100.109.*.*`. 在这种情况下如何获取真实 IP 呢? 其实 SLB 在转发 http 请求时, 会增加一个 header: `X-FORWARDED-FOR`. 真实 IP 就放在这个头中. 所一个简单的获取真实 IP 的方法就是读这个头:
