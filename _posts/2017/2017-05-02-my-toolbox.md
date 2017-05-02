@@ -5,7 +5,7 @@ categories: 工具
 ---
 
 ## 办公电脑: Macbook Pro
-我的办公电脑为一台 Macbook Pro. 这也是我使用最频繁的电子产品, 超过手机, 我任务这是我最划算的一笔投资, 他大大的提高了我的工作效率.
+我的办公电脑为一台 Macbook Pro. 这也是我使用最频繁的电子产品, 超过手机, 我认为这是我最划算的一笔投资, 他大大的提高了我的工作效率.
 
 ## IDE: Intellij IDEA
 我的主要编程语言为 JAVA, 很多年前我用 Eclipse 开发 JAVA, 自从用了IDEA 之后就彻底抛弃 Eclipse. 在我看来, IDEA 有以下几个优点:
@@ -44,4 +44,9 @@ Chrome 下面有大量的插件, 下面是几个我比较常用的插件:
 - jenv. JAVA 相关工具安装管理
 - docker. 容器管理
 - spectacle. 屏幕分屏工具
-- RescueTime. 记录你的时间都花在什么地方了  
+- RescueTime. 记录你的时间都花在什么地方了
+- DataGrip. JetBrains 出品的数据库客户端
+- teambition. 项目管理/任务管理
+- http://processOn.com  画流程图/架构图
+- github. 
+- http://git.oschina.net 私人文件放在这里
