@@ -43,10 +43,13 @@ Chrome 下面有大量的插件, 下面是几个我比较常用的插件:
 - brew. Mac 下的安装包管理工具
 - jenv. JAVA 相关工具安装管理
 - docker. 容器管理
+- aliyuncli. 管理阿里云
 - spectacle. 屏幕分屏工具
 - RescueTime. 记录你的时间都花在什么地方了
 - DataGrip. JetBrains 出品的数据库客户端
 - teambition. 项目管理/任务管理
 - http://processOn.com  画流程图/架构图
-- github. 
+- github.
+- git
+- meow, shadowsocks. 搭建翻墙代理服务器
 - http://git.oschina.net 私人文件放在这里
